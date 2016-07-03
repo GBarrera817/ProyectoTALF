@@ -5,8 +5,8 @@ json
     ;
 
 object
-    : '{' pair (',' pair)* '}'
-    | '{' '}' // Objeto vacío
+    : '{' pair (',' pair)* '}'          # UnObjecto
+    | '{' '}'                           # ObjectoVacio
     ;
 
 pair
@@ -14,18 +14,18 @@ pair
     ;
 
 array
-    : '[' value (',' value)* ']'
-    | '[' ']' // Array vacío
+    : '[' value (',' value)* ']'        # ArrayDeValores
+    | '[' ']'                           # ArrayVacio
     ;
 
 value
-    : STRING
-    | NUMBER
-    | object  //recursión
-    | array   //recursión
-    | 'true'  //keywords
-    | 'false'
-    | 'null'
+    : STRING                    # STRING
+    | NUMBER                    # Atom
+    | object                    # ValorObjeto
+    | array                     # ValorArray
+    | 'true'                    # Atom
+    | 'false'                   # Atom
+    | 'null'                    # Atom
     ;
 
 // Reglas léxicas
