@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="syntheticaBlueMoon">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/syntheticaBlueMoon.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/syntheticaMauveMetallic.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/syntheticaBlueSteel.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/syntheticaClassy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/syntheticaBlueLight.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/syntheticaGreenDream.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/syntheticaBlueIce.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/syntheticaBlackEye.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/syntheticaBlackStar.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/syntheticaPlain.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/syntheticaOrangeMetallic.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/syntheticaSimple2D.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/syntheticaSkyMetallic.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/syntheticaWhiteVision.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

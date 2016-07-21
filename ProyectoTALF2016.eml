@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/ProyectoTALF2016"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="antlr-4.5.3-complete.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/antlr-4.5.3-complete.jar!/"/>
+	</lib>
+	<lib name="synthetica.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/synthetica.jar!/"/>
+	</lib>
+	<levels>
+		<level name="antlr-4.5.3-complete" value="project"/>
+		<level name="syntheticaAluOxide" value="project"/>
+	</levels>
+</component>

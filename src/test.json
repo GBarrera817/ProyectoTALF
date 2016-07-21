@@ -1,4 +1,6 @@
 {
+    "objeto-vacio" : {},
+
     "antlr.org": {
         "owners" : [],
         "live" : true,

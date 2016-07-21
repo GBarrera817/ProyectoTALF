@@ -1,0 +1,3 @@
+Para implementar el traductor, tiene sentido tener que cada regla retorne el XML equivalente a
+la frase de entrada que se iguala con la regla. Para rastrear estos resultados parciales,
+anotaremos que el árbol parser usa el campo "xml" y 2 métodos de ayuda.
