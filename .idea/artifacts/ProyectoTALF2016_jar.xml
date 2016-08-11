@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ProyectoTALF2016:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ProyectoTALF2016_jar</output-path>
+    <root id="archive" name="ProyectoTALF2016.jar">
+      <element id="module-output" name="ProyectoTALF2016" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/syntheticaAluOxide.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/synthetica.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/antlr-4.5.3-complete.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -19,12 +19,11 @@ public class CustomOutputStream extends OutputStream{
 
     @Override
     public void write(int b) throws IOException {
-        //redirecciona los datos al textArea
 
+        //redirecciona los datos al textArea
         textArea.append(String.valueOf((char)b));
 
         //scroll el text area al final de los datos
-
         textArea.setCaretPosition(textArea.getDocument().getLength());
     }
 }

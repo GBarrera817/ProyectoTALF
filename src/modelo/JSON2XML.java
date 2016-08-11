@@ -7,8 +7,6 @@ import org.antlr.v4.runtime.tree.ParseTreeProperty;
 import org.antlr.v4.runtime.tree.ParseTreeWalker;
 
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStream;
 import java.util.Scanner;
 
 public class JSON2XML {
@@ -17,7 +15,7 @@ public class JSON2XML {
 
         ParseTreeProperty<String> xml = new ParseTreeProperty<>();
 
-        String getXML(ParseTree ctx) {
+        public String getXML(ParseTree ctx) {
             return xml.get(ctx);
         }
 
@@ -28,6 +26,7 @@ public class JSON2XML {
 
         /* ACCIONES PARA LOS NODOS QUE COMPONEN EL ARCHIVO JSON */
 
+
         public void exitJson(JSONParser.JsonContext ctx){
             setXML(ctx, getXML(ctx.getChild(0)));
         }
@@ -36,7 +35,6 @@ public class JSON2XML {
 
             StringBuilder builder = new StringBuilder();
             builder.append("\n");
-
 
             for (JSONParser.PairContext pctx : ctx.pair()) {
 
@@ -51,6 +49,7 @@ public class JSON2XML {
         }
 
         public void exitArrayOfValues(JSONParser.ArrayOfValuesContext ctx) {
+
             StringBuilder buf = new StringBuilder();
             buf.append("\n");
             for (JSONParser.ValueContext vctx : ctx.value()) {
@@ -65,6 +64,7 @@ public class JSON2XML {
         public void exitEmptyArray(JSONParser.EmptyArrayContext ctx){
             setXML(ctx, "");
         }
+
 
         public void exitPair(JSONParser.PairContext ctx){
 

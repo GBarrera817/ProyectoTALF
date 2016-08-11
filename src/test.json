@@ -5,6 +5,6 @@
         "owners" : [],
         "live" : true,
         "speed" : 1e100,
-        "menus" : ["File", "Help\nMenu"]
+        "menus" : ["File", "Help", "Menu"]
     }
 }
