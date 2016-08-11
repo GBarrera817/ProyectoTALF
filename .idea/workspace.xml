@@ -1,23 +1,771 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ProyectoTALF2016:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="62cc27dc-7601-4257-94f6-c4d9d991b89d" name="Default" comment="Se agregaron las clases que genera ANTLR">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/modelo/AST.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/modelo/JSON.g4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/modelo/JSON2XML.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/modelo/JSONParserTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/json.g4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/json.tokens" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jsonBaseListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jsonBaseVisitor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jsonLexer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jsonLexer.tokens" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jsonListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jsonParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/jsonVisitor.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/modelo/test.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/address-book-new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/appointment-new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/bookmark-new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/contact-new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/document-new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/document-open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/document-print-preview.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/document-print.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/document-properties.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/document-save-as.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/document-save.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/edit-clear.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/edit-copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/edit-cut.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/edit-delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/edit-find-replace.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/edit-find.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/edit-paste.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/edit-redo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/edit-select-all.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/edit-undo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/folder-new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/format-indent-less.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/format-indent-more.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/format-justify-center.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/format-justify-fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/format-justify-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/format-justify-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/format-text-bold.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/format-text-italic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/format-text-strikethrough.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/format-text-underline.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/go-bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/go-down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/go-first.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/go-home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/go-jump.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/go-last.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/go-next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/go-previous.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/go-top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/go-up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/list-add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/list-remove.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/mail-forward.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/mail-mark-junk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/mail-mark-not-junk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/mail-message-new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/mail-reply-all.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/mail-reply-sender.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/mail-send-receive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/media-eject.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/media-playback-pause.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/media-playback-start.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/media-playback-stop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/media-record.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/media-seek-backward.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/media-seek-forward.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/media-skip-backward.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/media-skip-forward.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/process-stop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/system-lock-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/system-log-out.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/system-search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/system-shutdown.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/tab-new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/view-fullscreen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/view-refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/actions/window-new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/animations/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/animations/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/animations/process-working.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/accessories-calculator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/accessories-character-map.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/accessories-text-editor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/help-browser.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/internet-group-chat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/internet-mail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/internet-news-reader.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/internet-web-browser.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/office-calendar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/preferences-desktop-accessibility.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/preferences-desktop-assistive-technology.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/preferences-desktop-font.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/preferences-desktop-keyboard-shortcuts.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/preferences-desktop-locale.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/preferences-desktop-multimedia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/preferences-desktop-remote-desktop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/preferences-desktop-screensaver.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/preferences-desktop-theme.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/preferences-desktop-wallpaper.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/preferences-system-network-proxy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/preferences-system-session.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/preferences-system-windows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/system-file-manager.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/system-installer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/system-software-update.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/system-users.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/utilities-system-monitor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/apps/utilities-terminal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/categories/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/categories/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/categories/applications-accessories.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/categories/applications-development.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/categories/applications-games.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/categories/applications-graphics.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/categories/applications-internet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/categories/applications-multimedia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/categories/applications-office.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/categories/applications-other.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/categories/applications-system.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/categories/preferences-desktop-peripherals.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/categories/preferences-desktop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/categories/preferences-system.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/devices/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/devices/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/devices/audio-card.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/devices/audio-input-microphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/devices/battery.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/devices/camera-photo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/devices/camera-video.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/devices/computer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/devices/drive-harddisk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/devices/drive-optical.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/devices/drive-removable-media.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/devices/input-gaming.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/devices/input-keyboard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/devices/input-mouse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/devices/media-flash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/devices/media-floppy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/devices/media-optical.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/devices/multimedia-player.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/devices/network-wired.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/devices/network-wireless.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/devices/printer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/devices/video-display.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emblems/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emblems/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emblems/emblem-favorite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emblems/emblem-important.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emblems/emblem-photos.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emblems/emblem-readonly.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emblems/emblem-symbolic-link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emblems/emblem-system.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emblems/emblem-unreadable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emotes/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emotes/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emotes/face-angel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emotes/face-crying.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emotes/face-devilish.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emotes/face-glasses.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emotes/face-grin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emotes/face-kiss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emotes/face-monkey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emotes/face-plain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emotes/face-sad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emotes/face-smile-big.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emotes/face-smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emotes/face-surprise.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/emotes/face-wink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/application-certificate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/application-x-executable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/audio-x-generic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/font-x-generic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/image-x-generic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/package-x-generic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/text-html.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/text-x-generic-template.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/text-x-generic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/text-x-script.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/video-x-generic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/x-office-address-book.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/x-office-calendar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/x-office-document-template.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/x-office-document.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/x-office-drawing-template.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/x-office-drawing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/x-office-presentation-template.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/x-office-presentation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/x-office-spreadsheet-template.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/mimetypes/x-office-spreadsheet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/places/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/places/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/places/folder-remote.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/places/folder-saved-search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/places/folder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/places/network-server.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/places/network-workgroup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/places/start-here.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/places/user-desktop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/places/user-home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/places/user-trash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/audio-volume-high.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/audio-volume-low.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/audio-volume-medium.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/audio-volume-muted.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/battery-caution.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/dialog-error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/dialog-information.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/dialog-warning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/folder-drag-accept.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/folder-open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/folder-visiting.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/image-loading.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/image-missing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/mail-attachment.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/network-error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/network-idle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/network-offline.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/network-receive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/network-transmit-receive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/network-transmit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/network-wireless-encrypted.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/printer-error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/software-update-available.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/software-update-urgent.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/user-trash-full.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/weather-clear-night.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/weather-clear.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/weather-few-clouds-night.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/weather-few-clouds.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/weather-overcast.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/weather-severe-alert.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/weather-showers-scattered.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/weather-showers.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/weather-snow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/22x22/status/weather-storm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/address-book-new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/appointment-new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/bookmark-new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/contact-new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/document-new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/document-open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/document-print-preview.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/document-print.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/document-properties.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/document-save-as.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/document-save.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/edit-clear.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/edit-copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/edit-cut.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/edit-delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/edit-find-replace.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/edit-find.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/edit-paste.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/edit-redo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/edit-select-all.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/edit-undo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/folder-new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/format-indent-less.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/format-indent-more.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/format-justify-center.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/format-justify-fill.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/format-justify-left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/format-justify-right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/format-text-bold.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/format-text-italic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/format-text-strikethrough.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/format-text-underline.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/go-bottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/go-down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/go-first.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/go-home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/go-jump.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/go-last.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/go-next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/go-previous.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/go-top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/go-up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/list-add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/list-remove.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/mail-forward.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/mail-mark-junk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/mail-mark-not-junk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/mail-message-new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/mail-reply-all.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/mail-reply-sender.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/mail-send-receive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/media-eject.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/media-playback-pause.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/media-playback-start.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/media-playback-stop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/media-record.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/media-seek-backward.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/media-seek-forward.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/media-skip-backward.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/media-skip-forward.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/process-stop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/system-lock-screen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/system-log-out.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/system-search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/system-shutdown.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/tab-new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/view-fullscreen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/view-refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/actions/window-new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/animations/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/animations/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/animations/process-working.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/accessories-calculator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/accessories-character-map.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/accessories-text-editor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/help-browser.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/internet-group-chat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/internet-mail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/internet-news-reader.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/internet-web-browser.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/office-calendar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/preferences-desktop-accessibility.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/preferences-desktop-assistive-technology.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/preferences-desktop-font.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/preferences-desktop-keyboard-shortcuts.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/preferences-desktop-locale.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/preferences-desktop-multimedia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/preferences-desktop-remote-desktop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/preferences-desktop-screensaver.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/preferences-desktop-theme.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/preferences-desktop-wallpaper.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/preferences-system-network-proxy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/preferences-system-session.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/preferences-system-windows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/system-file-manager.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/system-installer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/system-software-update.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/system-users.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/utilities-system-monitor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/apps/utilities-terminal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/categories/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/categories/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/categories/applications-accessories.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/categories/applications-development.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/categories/applications-games.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/categories/applications-graphics.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/categories/applications-internet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/categories/applications-multimedia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/categories/applications-office.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/categories/applications-other.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/categories/applications-system.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/categories/preferences-desktop-peripherals.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/categories/preferences-desktop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/categories/preferences-system.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/devices/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/devices/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/devices/audio-card.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/devices/audio-input-microphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/devices/battery.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/devices/camera-photo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/devices/camera-video.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/devices/computer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/devices/drive-harddisk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/devices/drive-optical.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/devices/drive-removable-media.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/devices/input-gaming.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/devices/input-keyboard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/devices/input-mouse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/devices/media-flash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/devices/media-floppy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/devices/media-optical.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/devices/multimedia-player.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/devices/network-wired.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/devices/network-wireless.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/devices/printer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/devices/video-display.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emblems/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emblems/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emblems/emblem-favorite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emblems/emblem-important.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emblems/emblem-photos.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emblems/emblem-readonly.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emblems/emblem-symbolic-link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emblems/emblem-system.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emblems/emblem-unreadable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emotes/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emotes/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emotes/face-angel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emotes/face-crying.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emotes/face-devilish.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emotes/face-glasses.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emotes/face-grin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emotes/face-kiss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emotes/face-monkey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emotes/face-plain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emotes/face-sad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emotes/face-smile-big.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emotes/face-smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emotes/face-surprise.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/emotes/face-wink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/application-certificate.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/application-x-executable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/audio-x-generic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/font-x-generic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/image-x-generic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/package-x-generic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/text-html.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/text-x-generic-template.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/text-x-generic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/text-x-script.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/video-x-generic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/x-office-address-book.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/x-office-calendar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/x-office-document-template.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/x-office-document.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/x-office-drawing-template.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/x-office-drawing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/x-office-presentation-template.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/x-office-presentation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/x-office-spreadsheet-template.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/mimetypes/x-office-spreadsheet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/places/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/places/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/places/folder-remote.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/places/folder-saved-search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/places/folder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/places/network-server.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/places/network-workgroup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/places/start-here.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/places/user-desktop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/places/user-home.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/places/user-trash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/audio-volume-high.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/audio-volume-low.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/audio-volume-medium.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/audio-volume-muted.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/battery-caution.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/dialog-error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/dialog-information.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/dialog-warning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/folder-drag-accept.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/folder-open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/folder-visiting.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/image-loading.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/image-missing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/mail-attachment.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/network-error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/network-idle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/network-offline.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/network-receive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/network-transmit-receive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/network-transmit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/network-wireless-encrypted.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/printer-error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/software-update-available.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/software-update-urgent.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/user-trash-full.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/weather-clear-night.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/weather-clear.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/weather-few-clouds-night.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/weather-few-clouds.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/weather-overcast.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/weather-severe-alert.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/weather-showers-scattered.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/weather-showers.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/weather-snow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/32x32/status/weather-storm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/AUTHORS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/COPYING" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/ChangeLog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/INSTALL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/NEWS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/acinclude.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/aclocal.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/config.guess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/config.sub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/configure" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/configure.ac" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/index.theme.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/install-sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/intltool-extract.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/intltool-merge.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/intltool-update.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/missing" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/mkinstalldirs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/po/ChangeLog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/po/Makefile.in.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/po/POTFILES.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/address-book-new.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/appointment-new.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/bookmark-new.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/contact-new.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/document-new.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/document-open.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/document-print-preview.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/document-print.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/document-properties.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/document-save-as.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/document-save.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/edit-clear.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/edit-copy.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/edit-cut.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/edit-delete.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/edit-find-replace.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/edit-find.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/edit-paste.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/edit-redo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/edit-select-all.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/edit-undo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/folder-new.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/format-indent-less.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/format-indent-more.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/format-justify-center.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/format-justify-fill.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/format-justify-left.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/format-justify-right.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/format-text-bold.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/format-text-italic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/format-text-strikethrough.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/format-text-underline.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/go-bottom.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/go-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/go-first.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/go-home.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/go-jump.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/go-last.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/go-next.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/go-previous.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/go-top.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/go-up.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/list-add.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/list-remove.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/mail-forward.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/mail-mark-junk.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/mail-message-new.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/mail-reply-all.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/mail-reply-sender.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/mail-send-receive.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/media-eject.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/media-playback-pause.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/media-playback-start.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/media-playback-stop.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/media-record.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/media-seek-backward.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/media-seek-forward.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/media-skip-backward.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/media-skip-forward.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/process-stop.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/system-lock-screen.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/system-log-out.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/system-search.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/system-shutdown.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/tab-new.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/view-fullscreen.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/view-refresh.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/actions/window-new.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/accessories-calculator.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/accessories-character-map.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/accessories-text-editor.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/help-browser.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/internet-group-chat.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/internet-mail.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/internet-news-reader.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/internet-web-browser.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/office-calendar.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/preferences-desktop-accessibility.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/preferences-desktop-assistive-technology.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/preferences-desktop-font.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/preferences-desktop-keyboard-shortcuts.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/preferences-desktop-locale.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/preferences-desktop-multimedia.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/preferences-desktop-remote-desktop.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/preferences-desktop-screensaver.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/preferences-desktop-theme.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/preferences-desktop-wallpaper.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/preferences-system-network-proxy.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/preferences-system-session.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/preferences-system-windows.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/system-file-manager.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/system-installer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/system-software-update.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/system-users.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/utilities-system-monitor.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/apps/utilities-terminal.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/categories/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/categories/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/categories/applications-accessories.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/categories/applications-development.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/categories/applications-games.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/categories/applications-graphics.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/categories/applications-internet.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/categories/applications-multimedia.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/categories/applications-office.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/categories/applications-other.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/categories/applications-system.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/categories/preferences-desktop-peripherals.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/categories/preferences-desktop.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/categories/preferences-system.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/devices/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/devices/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/devices/audio-card.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/devices/audio-input-microphone.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/devices/battery.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/devices/camera-photo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/devices/camera-video.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/devices/computer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/devices/drive-harddisk.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/devices/drive-optical.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/devices/drive-removable-media.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/devices/input-gaming.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/devices/input-keyboard.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/devices/input-mouse.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/devices/media-flash.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/devices/media-floppy.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/devices/media-optical.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/devices/multimedia-player.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/devices/network-wired.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/devices/network-wireless.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/devices/printer.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/devices/video-display.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emblems/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emblems/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emblems/emblem-favorite.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emblems/emblem-important.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emblems/emblem-photos.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emblems/emblem-readonly.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emblems/emblem-symbolic-link.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emblems/emblem-system.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emblems/emblem-unreadable.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emotes/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emotes/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emotes/face-angel.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emotes/face-crying.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emotes/face-devilish.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emotes/face-glasses.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emotes/face-grin.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emotes/face-kiss.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emotes/face-monkey.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emotes/face-plain.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emotes/face-sad.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emotes/face-smile-big.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emotes/face-smile.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emotes/face-surprise.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/emotes/face-wink.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/application-certificate.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/application-x-executable.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/audio-x-generic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/font-x-generic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/image-x-generic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/package-x-generic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/text-html.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/text-x-generic-template.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/text-x-generic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/text-x-script.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/video-x-generic.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/x-office-address-book.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/x-office-calendar.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/x-office-document-template.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/x-office-document.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/x-office-drawing-template.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/x-office-drawing.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/x-office-presentation-template.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/x-office-presentation.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/x-office-spreadsheet-template.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/mimetypes/x-office-spreadsheet.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/places/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/places/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/places/folder-remote.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/places/folder-saved-search.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/places/folder.icon" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/places/folder.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/places/network-server.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/places/network-workgroup.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/places/start-here.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/places/user-desktop.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/places/user-home.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/places/user-trash.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/audio-volume-high.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/audio-volume-low.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/audio-volume-medium.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/audio-volume-muted.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/battery-caution.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/dialog-error.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/dialog-information.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/dialog-warning.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/folder-drag-accept.icon" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/folder-drag-accept.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/folder-open.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/folder-visiting.icon" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/folder-visiting.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/image-loading.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/image-missing.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/mail-attachment.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/network-error.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/network-idle.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/network-offline.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/network-receive.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/network-transmit-receive.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/network-transmit.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/network-wireless-encrypted.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/printer-error.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/software-update-available.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/software-update-urgent.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/user-trash-full.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/weather-clear-night.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/weather-clear.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/weather-few-clouds-night.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/weather-few-clouds.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/weather-overcast.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/weather-severe-alert.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/weather-showers-scattered.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/weather-showers.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/weather-snow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/scalable/status/weather-storm.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icons/tango-icon-theme-0.8.90/svg2png.sh.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/syntheticaBlackEye.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/syntheticaBlackStar.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/syntheticaBlueIce.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/syntheticaBlueLight.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/syntheticaBlueMoon.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/syntheticaBlueSteel.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/syntheticaClassy.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/syntheticaGreenDream.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/syntheticaMauveMetallic.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/syntheticaOrangeMetallic.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/syntheticaPlain.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/syntheticaSimple2D.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/syntheticaSkyMetallic.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/syntheticaWhiteVision.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProyectoTALF2016.iml" afterPath="$PROJECT_DIR$/ProyectoTALF2016.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProyectoTALF2016.eml" afterPath="$PROJECT_DIR$/ProyectoTALF2016.eml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProyectoTALF2016/.gitignore" afterPath="$PROJECT_DIR$/out/production/ProyectoTALF2016/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modelo/JSON.g4" afterPath="$PROJECT_DIR$/src/modelo/JSON.g4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/modelo/JSON2XML.java" afterPath="$PROJECT_DIR$/src/modelo/JSON2XML.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test.json" afterPath="$PROJECT_DIR$/src/test.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vista/CustomOutputStream.java" afterPath="$PROJECT_DIR$/src/vista/CustomOutputStream.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vista/VentanaPrincipal.java" afterPath="$PROJECT_DIR$/src/vista/VentanaPrincipal.java" />
     </list>
     <ignored path="ProyectoTALF2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,12 +786,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VentanaPrincipal.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VentanaPrincipal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/vista/VentanaPrincipal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="200" column="66" selection-start-line="200" selection-start-column="66" selection-end-line="200" selection-end-column="66" />
-              <folding />
+            <state relative-caret-position="3120">
+              <caret line="173" column="19" selection-start-line="173" selection-start-column="19" selection-end-line="173" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="method#actionPerformed#0;class#VentanaPrincipal#0" expanded="false" />
+                <element signature="method#mntmSalirActionPerformed#0;class#VentanaPrincipal#0" expanded="false" />
+                <element signature="method#limpiarConsola#0;class#VentanaPrincipal#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,43 +804,30 @@
       <file leaf-file-name="JSON.g4" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/modelo/JSON.g4">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="700">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JSON2XML.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JSON2XML.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/modelo/JSON2XML.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+            <state relative-caret-position="20">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#687#688#0" expanded="true" />
-                <element signature="e#2291#2292#0" expanded="true" />
-                <element signature="e#2348#2349#0" expanded="true" />
-                <element signature="e#2419#2420#0" expanded="true" />
-                <element signature="e#2475#2476#0" expanded="true" />
-                <element signature="e#2534#2535#0" expanded="true" />
-                <element signature="e#2584#2585#0" expanded="true" />
-                <element signature="e#2647#2648#0" expanded="true" />
-                <element signature="e#2710#2711#0" expanded="true" />
                 <element signature="method#stripQuotes#0;class#XMLEmitter#0;class#JSON2XML#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test3.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test3.json">
+      <file leaf-file-name="JSONBaseListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/modelo/JSONBaseListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="500">
+              <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -131,22 +871,24 @@
         <option value="$PROJECT_DIR$/src/JSON2XML.java" />
         <option value="$PROJECT_DIR$/src/JSONParserTest.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/vista/CustomOutputStream.java" />
         <option value="$PROJECT_DIR$/src/vista/ventanaPrincipal.java" />
-        <option value="$PROJECT_DIR$/src/modelo/JSON.g4" />
         <option value="$PROJECT_DIR$/src/modelo/JSONParserTest.java" />
+        <option value="$PROJECT_DIR$/src/test3.json" />
+        <option value="$PROJECT_DIR$/src/vista/CustomOutputStream.java" />
+        <option value="$PROJECT_DIR$/src/vista/ResizableComponentEX.java" />
+        <option value="$PROJECT_DIR$/src/vista/FrameTest.java" />
         <option value="$PROJECT_DIR$/src/test.json" />
         <option value="$PROJECT_DIR$/src/vista/VentanaPrincipal.java" />
-        <option value="$PROJECT_DIR$/src/test3.json" />
+        <option value="$PROJECT_DIR$/src/modelo/JSON.g4" />
         <option value="$PROJECT_DIR$/src/modelo/JSON2XML.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="y" value="30" />
-    <option name="width" value="814" />
-    <option name="height" value="877" />
+    <option name="x" value="-8" />
+    <option name="y" value="22" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -173,6 +915,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -227,7 +970,6 @@
       </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,7 +982,7 @@
     <property name="$PROJECT_DIR$/src/json.g4::/language" value="Java" />
     <property name="$PROJECT_DIR$/src/json.g4::/gen-listener" value="true" />
     <property name="$PROJECT_DIR$/src/json.g4::/gen-visitor" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2678161" />
     <property name="$PROJECT_DIR$/src/JSON.g4::/auto-gen" value="false" />
@@ -256,12 +998,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Workspace IntelliJ IDEA\ProyectoTALF2016\src" />
       <recent name="D:\Workspace IntelliJ IDEA\ProyectoTALF2016\src\modelo" />
+      <recent name="D:\Workspace IntelliJ IDEA\ProyectoTALF2016\src" />
       <recent name="D:\Workspace IntelliJ IDEA\ProyectoTALF2016\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JSON2XML">
+  <component name="RunManager">
     <configuration default="false" name="JSONParserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="JSONParserTest" />
@@ -750,8 +1492,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.JSON2XML" />
-        <item index="1" class="java.lang.String" itemvalue="Application.VentanaPrincipal" />
+        <item index="0" class="java.lang.String" itemvalue="Application.VentanaPrincipal" />
+        <item index="1" class="java.lang.String" itemvalue="Application.JSON2XML" />
         <item index="2" class="java.lang.String" itemvalue="Application.VentanaPrincipal (1)" />
         <item index="3" class="java.lang.String" itemvalue="Application.JSONParserTest (1)" />
         <item index="4" class="java.lang.String" itemvalue="Application.JSONParserTest" />
@@ -775,28 +1517,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="30" width="814" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="22" width="1382" height="754" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32005313" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993559" sideWeight="0.50453174" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30107528" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27888447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993559" sideWeight="0.4954683" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19939578" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8333333" sideWeight="0.49743262" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5564409" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31989247" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -817,7 +1559,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -826,30 +1568,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/modelo/JSONParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modelo/JSON.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/modelo/JSONListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -869,19 +1587,6 @@
         <state relative-caret-position="2360">
           <caret line="132" column="109" selection-start-line="132" selection-start-column="109" selection-end-line="132" selection-end-column="109" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#2291#2292#0" expanded="true" />
-            <element signature="e#2348#2349#0" expanded="true" />
-            <element signature="e#2419#2420#0" expanded="true" />
-            <element signature="e#2475#2476#0" expanded="true" />
-            <element signature="e#2534#2535#0" expanded="true" />
-            <element signature="e#2584#2585#0" expanded="true" />
-            <element signature="e#2647#2648#0" expanded="true" />
-            <element signature="e#2710#2711#0" expanded="true" />
             <element signature="method#stripQuotes#0;class#XMLEmitter#0;class#JSON2XML#0" expanded="false" />
           </folding>
         </state>
@@ -891,7 +1596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -906,7 +1610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -922,7 +1625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -945,20 +1647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modelo/JSON.tokens">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modelo/JSONListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -994,14 +1682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProyectoTALF2016.eml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1019,28 +1699,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vista/ventanaPrincipal.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vista/ventanaPrincipal.jfd" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vista/CustomOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#324#325#0" expanded="false" />
-            <element signature="e#364#365#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1079,27 +1742,25 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controlador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modelo/JSONBaseListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controlador.java" />
     <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5.3-complete.jar!/org/antlr/v4/runtime/tree/ParseTreeWalker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-80">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test3.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modelo/JSONParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="92" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="92" />
         </state>
       </provider>
     </entry>
@@ -1107,77 +1768,93 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="307" column="0" selection-start-line="307" selection-start-column="0" selection-end-line="307" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modelo/JSONParserTest.java">
+    <entry file="file://$PROJECT_DIR$/src/modelo/JSON.tokens">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="20" column="92" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="92" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProyectoTALF2016.eml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modelo/JSONListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-560">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modelo/test.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vista/ResizableComponentEX.java" />
+    <entry file="file://$PROJECT_DIR$/src/vista/FrameTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/modelo/AST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vista/CustomOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-          <folding />
+        <state relative-caret-position="140">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vista/VentanaPrincipal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3120">
+          <caret line="173" column="19" selection-start-line="173" selection-start-column="19" selection-end-line="173" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#actionPerformed#0;class#VentanaPrincipal#0" expanded="false" />
+            <element signature="method#mntmSalirActionPerformed#0;class#VentanaPrincipal#0" expanded="false" />
+            <element signature="method#limpiarConsola#0;class#VentanaPrincipal#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/modelo/JSON.g4">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modelo/AST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        <state relative-caret-position="700">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/modelo/JSON2XML.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        <state relative-caret-position="20">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#2291#2292#0" expanded="true" />
-            <element signature="e#2348#2349#0" expanded="true" />
-            <element signature="e#2419#2420#0" expanded="true" />
-            <element signature="e#2475#2476#0" expanded="true" />
-            <element signature="e#2534#2535#0" expanded="true" />
-            <element signature="e#2584#2585#0" expanded="true" />
-            <element signature="e#2647#2648#0" expanded="true" />
-            <element signature="e#2710#2711#0" expanded="true" />
             <element signature="method#stripQuotes#0;class#XMLEmitter#0;class#JSON2XML#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test3.json">
+    <entry file="file://$PROJECT_DIR$/src/modelo/JSONBaseListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vista/VentanaPrincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="200" column="66" selection-start-line="200" selection-start-column="66" selection-end-line="200" selection-end-column="66" />
+        <state relative-caret-position="500">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1188,10 +1865,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>ProyectoTALF2016:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2678161" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

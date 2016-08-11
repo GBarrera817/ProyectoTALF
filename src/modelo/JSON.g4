@@ -29,9 +29,8 @@ value
     | 'null'                    # Atom
     ;
 
+
 // Reglas léxicas
-
-
 
 STRING
     : '"' (ESC | ~["\\])* '"'

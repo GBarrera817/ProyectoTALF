@@ -9,6 +9,9 @@
 	<lib name="synthetica.jar" scope="COMPILE">
 		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/synthetica.jar!/"/>
 	</lib>
+	<lib name="syntheticaAluOxide.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/syntheticaAluOxide.jar!/"/>
+	</lib>
 	<levels>
 		<level name="antlr-4.5.3-complete" value="project"/>
 		<level name="syntheticaAluOxide" value="project"/>
